@@ -1,0 +1,1435 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    /* display: none; */
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*------------------------------------------------------------------------*/
+
+@font-face {
+    src: url("../fonts/AndoraDemo.ttf") format("tff");
+    src: url("../fonts/AndoraDemo.woff") format("woff");
+    font-family: "Andora-Demo";
+}
+
+
+
+
+
+
+
+
+
+
+
+header {
+    z-index: 2;
+    position: fixed;
+
+    width: 100%;
+
+    display: flex;
+
+    flex-flow: wrap;
+
+    justify-content: space-between;
+
+    background-color: #6EBBA9;
+
+    align-items: center;
+}
+
+header img {
+    height: 42px;
+}
+
+nav {
+    display: none;
+    justify-content: flex-end;
+    background-color: #6EBBA9;
+    flex-basis: 100%;
+    text-align: right;
+}
+
+nav.show {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    background-color: #E7DED0;
+}
+
+
+body {
+    margin: 0;
+}
+
+nav .logo {
+
+    margin: 0;
+    color: #E7DED0;
+    font-family: 'Ruthie', cursive;
+    font-size: 2em;
+    float: right;
+
+}
+
+.logo {
+    font-family: 'Ruthie', cursive;
+    font-size: 2em;
+    padding: 3%;
+    color: #E7DED0;
+}
+
+.titlebg .imgdesk {
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+
+
+li {
+    margin: 0;
+    font-size: 1.2em;
+    padding: 5% 0;
+
+
+}
+
+.nav-computer {
+
+    margin-right: 50%;
+    transform: translateX(50%);
+}
+
+.nav-computer li {
+    color: #E7DED0;
+    text-align: center;
+}
+
+
+
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: #E7DED0;
+}
+
+footer a {
+    color: black;
+}
+
+.visitwebsite1 {
+    color: black;
+    align-self: center;
+
+}
+
+.visitwebsite2 {
+    color: black;
+    align-self: center;
+}
+
+.visitwebsite3 {
+    color: black;
+    align-self: center;
+}
+
+.titlebg {
+    display: flex;
+    background-image: url(../images/gourmetmob.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+
+
+.titlebg h3 {
+    align-self: center;
+    font-family: "Cooper";
+    font-size: 1.2em;
+    color: aliceblue;
+    text-shadow: 0.05em 0.05em black;
+}
+
+.titlebg h1 {
+    text-shadow: 0.04em 0.04em black;
+    font-family: "Andora-Demo";
+    color: aliceblue;
+    top: 35%;
+    font-size: 5.2em;
+    position: absolute;
+}
+
+nav h2 {
+    background-color: #6EBBA9;
+    float: left;
+
+}
+
+
+
+.arrow {
+    display: none;
+
+    position: absolute;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    top: 85%;
+}
+
+
+
+section1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#aarhusstreetfood {
+
+    font-size: 1.4em;
+
+    background-color: #6EBBA9;
+
+    border-radius: 0.6em 0.6em 0.6em 0.6em;
+
+    padding: 2%;
+
+    color: #E7DED0;
+
+    width: 60%;
+
+    margin-left: 2.7em;
+}
+
+
+.info {
+
+    font-weight: 700;
+    align-self: flex-end;
+    padding: 5%;
+
+
+
+
+
+}
+
+.section1 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.aarhusmobile {
+    width: 100%;
+}
+
+
+.aarhustablet {
+    display: none;
+}
+
+.aarhusdesktop {
+    display: none;
+}
+
+.aarhusp1 {
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.titlu1 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.aarhusp2 {
+    margin: 6%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+    background-color: #B99469;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    font-weight: normal;
+}
+
+.titlu2 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.review1 {
+    padding: 5%;
+
+    font-style: oblique;
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#cafe {
+
+    font-size: 1.7em;
+
+    background-color: #6EBBA9;
+
+    border-radius: 0.6em 0.6em 0.6em 0.6em;
+
+    padding: 2%;
+
+    width: 60%;
+
+
+
+    display: block;
+
+    text-align: center;
+
+    margin-left: 50%;
+
+    transform: translateX(-50%);
+
+    color: #E7DED0;
+}
+
+
+
+.info2 {
+
+    font-weight: 700;
+    align-self: flex-end;
+    padding: 8%;
+}
+
+.section2 {
+    padding-top: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.piccolinamobile {
+    width: 100%;
+}
+
+.piccolinatablet {
+    display: none;
+}
+
+.piccolinadesktop {
+    display: none;
+}
+
+.piccolinap1 {
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.titlu3 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.piccolinap2 {
+    margin: 5%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+    background-color: #B99469;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    font-weight: normal;
+}
+
+.titlu4 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.review2 {
+    padding: 5%;
+
+    font-style: oblique;
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+.section3 {
+    padding-top: 30%;
+    padding-bottom: 17%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.burgermobile {
+    width: 100%;
+}
+
+.burgertablet {
+    display: none;
+}
+
+.burgerdesktop {
+    display: none;
+}
+
+.info3 {
+
+    font-weight: 700;
+    align-self: flex-end;
+    padding: 8%;
+}
+
+#burger {
+
+    padding: 2%;
+
+    font-size: 1.5em;
+
+    background-color: #6EBBA9;
+
+    border-radius: 0.6em 0.6em 0.6em 0.6em;
+
+    padding: 2%;
+
+    width: 60%;
+
+    display: block;
+
+    text-align: center;
+
+    margin-left: 50%;
+
+    transform: translateX(-50%);
+
+    color: #E7DED0;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    height: 5px;
+    background-color: #E7DED0;
+    margin: 6px 0;
+    transition: 0.5s ease;
+}
+
+.x .bar1 {
+    transform: rotate(-45deg) translate(-9px, 7px);
+}
+
+.x .bar2 {
+    opacity: 0;
+}
+
+.x .bar3 {
+    transform: rotate(45deg) translate(-8px, -7px);
+}
+
+.burger-menu {
+    width: 40px;
+}
+
+.titlu5 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.burgerp1 {
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.titlu6 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.burgerp2 {
+    margin: 5%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+    background-color: #B99469;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    font-weight: normal;
+}
+
+.review3 {
+    padding: 5%;
+
+    font-style: oblique;
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact {
+    width: 100%;
+    background-color: #B99469;
+
+}
+
+.contact h3 {
+    padding-top: 0.7em;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+
+.contactinfo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .9em;
+    width: 100%;
+    padding-top: 8%;
+}
+
+
+
+
+.socialmedia {
+    width: 100%;
+    display: inline;
+}
+
+
+.socialmedia img {
+    max-width: 100%;
+    padding: 15%;
+}
+
+
+.socialmedia ul {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.socialmedia ul li {
+    text-align: center;
+    display: inline;
+}
+
+.contact p {
+    padding: 1em 0;
+    color: black;
+    text-align: center;
+    font-size: .8em;
+}
+
+
+/*Media Quary for mobile ends here*/
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .menu-icon {
+        display: none;
+
+    }
+
+    .nav-computer {
+        margin: 0;
+        transform: translateX(0);
+    }
+
+
+
+
+    header {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    nav ul li,
+    nav ul div {
+        display: inline-block;
+        padding: 5% 0;
+        text-transform: uppercase;
+    }
+
+    nav ul div li {
+        padding: 0;
+
+    }
+
+    .logo {
+        font-size: 3em;
+        padding: 1%;
+    }
+
+    .titlebg {
+        background-image: url(../images/gourmettablet.jpg);
+    }
+
+
+    .titlebg h1 {
+        font-size: 8em;
+    }
+
+    .titlebg h3 {
+        font-size: 1.5em;
+        margin-top: 12%;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aarhustablet {
+        display: block;
+        width: 100%;
+
+    }
+
+    .aarhusmobile {
+        display: none;
+    }
+
+    .aarhusdesktop {
+        display: none;
+    }
+
+    #aarhusstreetfood {
+
+        font-size: 2.4em;
+
+        padding: 1%;
+
+        width: 55%;
+
+        margin: 0;
+
+        align-self: center;
+    }
+
+
+    .articol1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aarhusp1 {
+        padding: 5%;
+        width: 38%;
+    }
+
+    .aarhusp2 {
+
+        width: 34%;
+        padding-bottom: 4%;
+        padding-top: 4%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%;
+        margin-top: 3%;
+        margin-left: 9%;
+
+    }
+
+    .paragraph1 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .aarhusp2:hover {
+        background-color: #CFA97E;
+        box-shadow: 0 0 4px 4px beige;
+    }
+
+    .review1 {
+
+        margin: 2%;
+
+        width: 50%;
+
+        padding-left: 20%;
+
+        padding-top: 1%;
+    }
+
+
+    .info {
+
+        padding-top: 6%;
+
+        padding-bottom: 1%;
+
+        padding-left: 1%;
+
+        align-self: end;
+    }
+
+    .section2 {
+        display: flex;
+        padding-top: 10%;
+        flex-direction: column;
+    }
+
+    #cafe {
+        font-size: 2.4em;
+        padding: 1%;
+        width: 38%;
+        margin-right: 10%;
+        align-self: center;
+    }
+
+    #burger {
+        font-size: 2.4em;
+        padding: 1%;
+        width: 38%;
+        margin-right: 10%;
+        align-self: center;
+    }
+
+    .piccolinatablet {
+        display: block;
+        width: 100%;
+    }
+
+    .piccolinadesktop {
+        display: none;
+    }
+
+    .piccolinamobile {
+        display: none;
+    }
+
+
+    .articol2 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .piccolinap1 {
+        padding: 5%;
+        width: 38%;
+    }
+
+    .piccolinap2 {
+        width: 34%;
+        padding-bottom: 4%;
+        padding-top: 4%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%;
+        margin-top: 3%;
+        margin-left: 9%;
+    }
+
+    .paragraph2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .piccolinap2:hover {
+        background-color: #CFA97E;
+        box-shadow: 0 0 4px 4px beige;
+
+
+    }
+
+    .review2 {
+
+        margin: 2%;
+        width: 50%;
+
+        padding-left: 20%;
+
+        padding-top: 1%;
+    }
+
+    .info2 {
+        padding-top: 6%;
+
+        padding-bottom: 1%;
+
+        padding-left: 1%;
+
+        align-self: end;
+    }
+
+    .section3 {
+        display: flex;
+        padding-top: 10%;
+        flex-direction: column;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .burgermobile {
+        display: none;
+    }
+
+    .burgertablet {
+        display: block;
+        width: 100%;
+    }
+
+    .burgerdesktop {
+        display: none;
+    }
+
+    .articol3 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .burgerp1 {
+        padding: 5%;
+        width: 38%;
+    }
+
+    .burgerp2 {
+        width: 40%;
+        padding-bottom: 4%;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 2%;
+        margin: 2%;
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+
+    .paragraph3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .burgerp2:hover {
+        background-color: #CFA97E;
+        box-shadow: 0 0 4px 4px beige;
+    }
+
+    .review3 {
+
+        margin: 2%;
+
+        width: 50%;
+
+        padding-left: 20%;
+
+        padding-top: 1%;
+    }
+
+    .info3 {
+        padding-top: 6%;
+
+        padding-bottom: 1%;
+
+        padding-left: 1%;
+
+        align-self: end;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: table;
+
+    }
+
+    .dropdown:hover .dropbtn {
+
+        background-color: #6EBBA9;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: table;
+
+
+
+    }
+
+
+
+
+
+
+    .dropdown2:hover .dropdown-content-2 {
+        display: table;
+
+    }
+
+    .dropdown2:hover .dropbtn2 {
+
+        background-color: #6EBBA9;
+    }
+
+    .dropdown2:hover .dropdown-content-2 {
+        display: table;
+    }
+
+    .dropdown-content {
+        display: none;
+        padding: 3% 0 0 0;
+        font-size: 0.7em;
+        text-align: left;
+        font-family: "Cooper";
+        display: none;
+        position: absolute;
+        background-color: #6EBBA9;
+        color: #E7DED0;
+        width: 130px;
+        z-index: 1;
+    }
+
+    .dropdown-content li {
+        width: 100%;
+        padding: .5rem 0;
+        text-align: left;
+    }
+
+
+
+    .dropdown-content li {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .contact h3 {
+        font-size: 2em;
+    }
+
+    .contactinfo {
+        font-size: 1.1em;
+        padding-top: 2%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Quary for tablet ends here*/
+
+
+@media screen and (min-width: 1024px) {
+
+    .nav-computer {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        transform: translateX(0);
+    }
+
+
+
+    .menu-icon {
+        display: none
+    }
+
+    .titlebg h1 {
+
+        font-family: "Andora-Demo";
+        color: aliceblue;
+        text-align: center;
+        font-size: 10vw;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0.04em 0.04em black;
+
+    }
+
+    .titlebg .imgdesk {
+        display: block;
+        width: 100%;
+    }
+
+
+
+    .titlebg h3 {
+        font-family: "Cooper";
+        display: flex;
+        color: aliceblue;
+        font-size: 1.5vw;
+        letter-spacing: 0.2em;
+        position: absolute;
+        top: 40%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0.05em 0.05em black;
+
+    }
+
+    .arrow {
+        display: block;
+
+
+
+
+
+    }
+
+    nav img {
+        display: none;
+    }
+
+    nav {
+
+        display: block;
+        width: 100%;
+        height: 8%;
+        padding: 0;
+        z-index: 1;
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    nav ul li {
+        text-transform: none;
+        margin: 0;
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #E7DED0;
+        font-family: "Cooper";
+        padding: 3% 0;
+
+
+    }
+
+    .dropbtn {
+
+        font-family: "Cooper";
+        background-color: #6EBBA9;
+        color: #E7DED0;
+
+        font-size: 1.3em;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        padding: 3%;
+
+
+    }
+
+
+    a {
+        color: #E7DED0;
+        text-decoration: none;
+    }
+
+    header {
+        display: flex;
+        flex-flow: nowrap;
+        background-color: #6EBBA9;
+        flex-direction: initial;
+    }
+
+    .logo {
+        color: #E7DED0;
+        top: 0;
+        left: 0;
+        font-family: 'Ruthie', cursive;
+        font-size: 2.5em;
+        padding-left: 1.5%;
+
+
+
+    }
+
+
+    .titlebg {
+        background-image: url(../images/gourmet.jpg);
+    }
+
+
+
+
+
+
+    #aarhusstreetfood {
+
+        border-radius: 0.6em 0.6em 0.6em 0.6em;
+
+        width: 40%;
+        display: table;
+        background-color: #6EBBA9;
+        color: #E7DED0;
+
+        font-size: 2.7em;
+    }
+
+
+
+    .section1 {
+        padding-top: 3%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .aarhusdesktop {
+        display: block;
+        width: 50%;
+        height: 100%;
+    }
+
+    .aarhustablet {
+        display: none;
+    }
+
+    .piccolinadesktop {
+        display: block;
+        width: 50%;
+        height: 100%;
+    }
+
+    .piccolinatablet {
+        display: none;
+    }
+
+    .burgertablet {
+        display: none;
+    }
+
+    .burgerdesktop {
+        display: block;
+        width: 50%;
+        height: 100%;
+    }
+
+    .info {
+        padding-top: 4%;
+        padding-bottom: 3%;
+        font-size: 1em;
+        padding-left: 21%;
+        width: 56%;
+    }
+
+
+    .articol1 {
+        display: flex;
+
+        flex-wrap: nowrap;
+    }
+
+
+    .aarhusp1 {
+        margin-top: 0%;
+        margin-left: 22%;
+        padding: 0;
+        width: 55%;
+    }
+
+    .aarhusp2 {
+        margin-top: 3%;
+        margin-left: 20%;
+        padding: 3%;
+        width: 55%;
+    }
+
+    .paragraph1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .review1 {
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+
+
+    .section2 {
+        padding-top: 10%;
+    }
+
+    .info2 {
+        padding-top: 4%;
+        padding-bottom: 3%;
+        font-size: 1em;
+        padding-left: 21%;
+        width: 56%;
+    }
+
+    .articol2 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    }
+
+
+    .piccolinap1 {
+        margin-top: 0%;
+        margin-left: 22%;
+        padding: 0;
+        width: 55%;
+    }
+
+    .piccolinap2 {
+        margin-top: 3%;
+        margin-left: 20%;
+        padding: 3%;
+        width: 55%;
+    }
+
+    .paragraph2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .review2 {
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+
+    .section3 {
+        padding-top: 10%;
+    }
+
+    .info3 {
+        padding-top: 4%;
+        padding-bottom: 3%;
+        font-size: 1em;
+        padding-left: 21%;
+        width: 56%;
+    }
+
+    .articol3 {
+        display: flex;
+
+        flex-wrap: nowrap;
+    }
+
+
+    .burgerp1 {
+        margin-top: 0%;
+        margin-left: 22%;
+        padding: 0;
+        width: 55%;
+    }
+
+    .burgerp2 {
+        margin-top: 3%;
+        margin-left: 20%;
+        padding: 3%;
+        width: 55%;
+    }
+
+    .paragraph3 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .review3 {
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+
+
+    .socialmedia img {
+        display: block;
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+
+}
