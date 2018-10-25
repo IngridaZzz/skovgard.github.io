@@ -1,0 +1,415 @@
+body {
+    font: 12px/18px Arial,
+        sans-serif;
+}
+
+#wrapper {
+
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+    height: auto;
+    background-color: white;
+}
+
+
+
+a {
+    color: #be9383;
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.words {
+    font-size: 143%;
+    color: #606055;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#image {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#text {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #606055;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#text1 {
+    position: absolute;
+    color: #606055;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#rectangle {
+    background: url(../images/bck.png);
+    margin-bottom: 3%;
+    float: right;
+    background-color: #eeaa8a;
+
+}
+
+#mtext {
+    color: #606055;
+}
+
+#mtext1 {
+    color: #606055;
+}
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+
+
+#ar {
+    font-family: 'Roboto', sans-serif;
+    color: #eeaa8a;
+    font-size: 300%;
+    text-shadow: 1px 1px 1px #606055;
+    font-weight: bold;
+}
+
+#ar1 {
+    display: block;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #606055;
+    font-size: 200%;
+    text-shadow: 1px 1px 1px #606055;
+    margin-bottom: 3%;
+
+}
+
+p {
+    font-size: 120%;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+
+}
+
+#art {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#line {
+    min-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#vline {
+    margin-right: 10%;
+    max-width: 1%;
+    max-height: 250px;
+    float: left;
+
+
+}
+
+main img {
+    width: 40%;
+}
+
+#end {
+    font-family: 'Roboto', sans-serif;
+    color: #606055;
+}
+
+.by {
+    float: right;
+}
+
+
+footer {
+    background: url(../images/bck.png);
+    background-color: #eeaa8a;
+    font-family: 'Open Sans', sans-serif;
+    color: #606055;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #606055;
+    font-size: 180%;
+
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+
+
+
+@media only screen and (min-width: 300px) {
+
+    .dropbtn {
+        background-color: white;
+        color: #606055;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #eeaa8a;
+    }
+
+
+    #ar {
+        font-size: 280%;
+    }
+
+
+    #image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #menu {
+        max-width: 12%;
+        background-color: white;
+        height: auto;
+        position: fixed;
+        padding-right: 100%;
+    }
+
+    .words {
+        display: none;
+    }
+
+    #mtext {
+        display: flex;
+        text-shadow: 1px 1px 2px #000000;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 245%;
+        margin-top: -2%;
+
+
+    }
+
+    #mtext1 {
+        text-align: center;
+        display: flex;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 150%;
+        padding: 3%;
+        background-color: rgba(246, 246, 151, 0.6);
+        margin-bottom: 10%;
+    }
+
+    #text {
+        display: none;
+        font-size: 200%;
+    }
+
+    #text1 {
+        display: none;
+        top: 60%;
+    }
+
+    #rectangle {
+        margin-top: 15%;
+    }
+
+
+    #articles {
+        width: 150%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20%;
+    }
+
+    #end {
+        font-family: 'Open Sans', sans-serif;
+        color: #606055;
+        text-align: center;
+        font-size: 200%;
+    }
+
+    footer {
+        padding-bottom: 10%;
+        padding-top: 10%;
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+
+    #mtext {
+        display: flex;
+        text-shadow: 1px 1px 2px #000000;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 355%;
+        margin-top: -2%;
+    }
+
+    #rectangle {
+        margin-top: 20%;
+    }
+
+
+}
+
+@media only screen and (min-width: 650px) {
+    #mtext {
+        font-size: 500%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    dropdown {
+        display: none;
+    }
+
+    dropdown-content {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    .words {
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #word {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    #mtext {
+        display: none;
+
+    }
+
+    #mtext1 {
+        display: none;
+    }
+
+    #text {
+        display: inherit;
+        font-size: 400%;
+        top: 50%;
+    }
+
+    #text1 {
+        display: inherit;
+        font-size: 150%;
+        margin-right: 70%;
+    }
+
+
+    #rectangle {
+        margin-top: 2%;
+        margin-left: 40%;
+
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+    #image {
+        float: right;
+    }
+
+    #wrapper {
+
+        margin: 0 auto;
+    }
+
+    #articles {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        padding-left: 0%;
+    }
+
+    #articles section img {
+        width: 100%;
+    }
+
+    footer {
+        padding-bottom: 5%;
+        padding-top: 5%;
+        font-size: 150%;
+    }
+
+}
+
+@media only screen and (min-width: 1100px) {
+    #text {
+        font-size: 500%;
+    }
+}
